@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Martel+Sans:wght@200;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+position: relative;
+background-repeat: none;
+    height: 90vh;
+
+}
+
+.main .box{
+height: 90vh;
+width: 100%;
+background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav div{
+    display: flex;
+}
+
+nav img{
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: xx-large;
+   font-family: 'martel sans', sans-serif;
+   gap: 2px;
+   padding: 0px 30px;
+}
+
+.hero> :first-child{
+    font-weight: 1000;
+    font-size: 64px;
+    line-height: 80px;
+        text-align: center;
+
+
+}
+.hero> :nth-child(2){
+    font-weight:1000;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+}
+
+.seperation{
+    background-color: rgb(255, 41, 77);
+    height: 4px;
+    
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+    padding: 6px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.btn1{
+    border: 0.2px solid gray;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown1-content{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    margin: 34px 500px;
+    z-index: 10;
+}
+.dropdown1-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown1:hover .dropdown1-content{
+    display: block;
+    
+}
+
+.dropdown1-content:hover{
+    background-color: rgba(255, 255, 255, 0.644);
+}
+
+.btnred1{
+    background-color: red;
+    padding: 8px 16px;
+    border: red;
+}
+.btnred1:hover{
+    background-color: rgb(185, 4, 4);
+}
+.btnred2{
+    background-color: rgb(255, 1, 1);
+    padding: 15px 25px;
+    font-size: x-large;
+    border: red;
+}
+
+.btnred2:hover{
+    background-color: rgb(185, 4, 4);
+}
+
+.first{
+    color: white;
+    padding: 41px 278px;
+    font-family: 'martel sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.btn2{
+    padding: 15px 35px;
+    font-size: medium;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+
+.btn3{
+    padding: 15px 35px;
+    font-size: medium;
+    border: 1px solid gray;
+    margin: 20px;
+    background-color: rgba(128, 128, 128, 0.151);
+
+
+}
+
+.span1{
+    display: flex;
+        width: 80vh;
+        align-items: center;
+    justify-content: center;
+}
+
+.second{
+    display: flex;
+   justify-content: center;
+   padding: 19px;
+   flex-wrap: initial;
+}
+
+.img1{
+   
+    padding: 0px 50px;
+}
+.img1:hover{
+    transform: scale(1.1);
+    
+}
+.img2{
+    
+    padding: 0px 50px;
+}
+
+.img2:hover{
+    transform: scale(1.1);
+}
+
+.img3{
+    
+    padding: 0px 40px;
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+.img4{
+    
+    padding: 0px 30px;
+}
+.img4:hover{
+    transform: scale(1.1);
+}
+.img5{
+    
+    padding: 0px 30px;
+}
+
+.img5:hover{
+    transform: scale(1.1);
+}
+
+.third .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 190px;
+   font-family: 'martel sans', sans-serif;
+}
+
+.third1{
+    color: white;
+    padding: 41px 278px;
+    font-family: 'martel sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.box1{
+    background-color: rgb(24, 2, 43);
+color: white;
+padding: 0px 0px;
+width: 15vw;
+height: 300px;
+display: flex;
+flex-wrap: wrap;
+margin:auto;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+padding: 1.5rem 1rem 5rem 1rem;
+}
+
+.box2{
+    background-color: rgb(24, 2, 43);
+    color: white;
+    padding: 0px 0px;
+    width: 15vw;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem 5rem 1rem;
+}
+
+
+.box3{
+    background-color: rgb(24, 2, 43);
+    color: white;
+    padding: 0px 0px;
+    width: 15vw;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem 5rem 1rem;
+}
+
+
+.box4{
+    background-color: rgb(24, 2, 43);
+    color: white;
+    padding: 0px 0px;
+    width: 15vw;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem 5rem 1rem;
+}
+
+.span2{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.span3{
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(128, 128, 128);
+}
+
+.faq1{
+    color: white;
+    padding: 41px 278px;
+    font-family: 'martel sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.faqbox{
+    display: flex;
+    color: white;
+    background-color: #2d2d2d;
+    padding: 20px;
+    width: 64vw;
+    margin: 10px 15vw;
+    font-family: 'martel sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.faqbox:hover{
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+.btnred3{
+    background-color: rgb(255, 1, 1);
+    padding: 15px 25px;
+    font-size: x-large;
+    border: red;
+    margin: 58px 290px;
+}
+
+.btnred3:hover{
+    transition: ease-out;
+    background-color: rgb(185, 4, 4);
+
+}
+
+footer{
+    color: #a5a5a5;
+    margin: auto;
+    padding: 34px;
+}
+
+.questions{
+    margin: 2px 13vw;
+    padding: 40px 0px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #a5a5a5;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer a{
+    color: #a5a5a5;
+    font-family: 'martel sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.btn4{
+    border: 0.2px solid gray;
+    margin: 10px 280px;
+    padding: 8px 42px;
+}
+
+.india{
+    color: #a5a5a5;
+    margin: 2px 15vw;
+    padding: 40px 0px;
+    font-family: 'martel sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
